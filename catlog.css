@@ -1,0 +1,50 @@
+img {
+    height: 250px;
+    width: 260px;
+    border-radius: 25px;
+    border: black solid 2px;
+    margin: 2px;
+    cursor: pointer;
+    transition-property: width, height;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 10ms;
+}
+img:hover {
+    height: 300px;
+    width: 300px;
+}
+
+
+.headings {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.footeranchor {
+    color: white;
+    background: transparent;
+}
+
+
+.footer {
+    background-color: black;
+    padding-top: 5px;
+}
+
+.footerP {
+    color: white;
+}
+
+.text-uppercase {
+    color: white;
+}
+
+.copyright {
+    color: black;
+}
+

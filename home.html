@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cera's Tiles</title>
+    <!-- links -->
+
+    <!-- bootstrap cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- stylesheets -->
+
+<link rel="stylesheet" href="homestyle.css">
+<script src="cardhover.js"></script>
+
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body background="Background Images/mainbg.webp">
+    <div class="bg">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">CERA'S TILES</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                                Catogries
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="bathroomtiles.html" style="color: black;">BathRoom Tiles</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="kitchentiles.html" style="color: black;">Kitchen Tiles</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="outdoor.html" style="color: black;">OutDoor Tiles</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="bedroom.html" style="color: black;">BedRoom Tiles</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="livingroom.html" style="color: black;">LivingRoom Tiles</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="commercialtiles.html" style="color: black;">Commercial Tiles</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="color: black;">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="catlog.html" style="color: black;">E-Catlog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="expertcorner.html" style="color: black;">Expert Corner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html" style="color: black;">About Us</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+<!-- carousel -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Cerosel Images/C1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Cerosel Images/C2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Cerosel Images/C3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Cerosel Images/C4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Cerosel Images/C5.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+              <!-- Wall Tiles -->
+            <section id="walltiles">
+        </div class="walltiles">
+        <h2 class="mch1"><b> <u>WALL TILES</u></b></h2>
+        <br>
+        <!-- cards -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img1" src="Wall Tiles/bathroomwall.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BathRoom Wall Tiles</h5>
+
+                            <a href="bathroomtiles.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img2" src="Wall Tiles/kitchenwall.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kitchen Wall Tiles</h5>
+
+                            <a href="kitchentiles.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img3" src="Wall Tiles/livingroomwall.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> LivingRoom Wall Tiles</h5>
+
+                            <a href="livingroom.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img4" src="Wall Tiles/roomwall.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Bedroom Wall Tiles</h5>
+
+                            <a href="bedroom.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img5" src="Wall Tiles/commercialwall.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Commercial Wall Tiles</h5>
+
+                            <a href="commercialtiles.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img id="img6" src="Wall Tiles/outdoorwall.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">OutDoor Wall Tiles</h5>
+
+                            <a href="outdoor.html" class="btn">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <br>
+        <!-- Floor Tiles -->
+        <section id="floortiles">
+            <div class="floortiles">
+
+                <h2 class="mch2"><b> <u>FLOOR TILES</u></b></h2>
+                <!-- cards -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img id="img7" src="Floor Tiles/bathroomfloor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BathRoom Floor Tiles</h5>
+
+                                    <a href="bathroomtiles.html" class="btn">View More</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img id="img8" src="Floor Tiles/kitchenfloor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kitchen Floor Tiles</h5>
+                                    <a href="kitchentiles.html" class="btn">View More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img id="img9" src="Floor Tiles/livingroomfloor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">LivingRoom Floor Tiles</h5>
+
+                                    <a href="livingroom.html" class="btn">View More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img id="img10" src="Floor Tiles/bedroomfloor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BedRoom Floor Tiles</h5>
+
+                                    <a href="bedroom.html" class="btn">View More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img id="img11" src="Floor Tiles/commercialfloor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Commercial Floor Tiles</h5>
+
+                                    <a href="commercialtiles.html" class="btn">View More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img id="img12" src="Floor Tiles/outdoorfloor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">OutDoor Floor Tiles</h5>
+
+                                    <a href="ou" class="btn">View More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <br>
+        <!-- Special Tiles -->
+        <h2 class="mch3"><u>SPECIAL TILES</u></h2>
+        -- <section id="specialtiles">
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col"><div class="card" style="width: 18rem;">
+        <img id="img13"src="Special Tiles/germfreetile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Germ free Tiles</h5>
+          <p class="card-text">Germ-free tiles are manufactured using an antimicrobial layer that
+            fights against germs, killing 99% of them upon contact. You can install germ-free
+            floor tiles to make your home a safe space.</p>
+     
+        </div>
+      </div></div>
+
+    <div class="col"><div class="card" style="width: 18rem;">
+        <img id="img14"src="Special Tiles/tactile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tac Tiles</h5>
+          <p class="card-text">Tactile are unique non-fade, non-slip ground
+            surface indicators (vitrified tiles).Tactile tiles are textured paving surfaces
+            designed to cater to visually impaired pedestrians..</p>
+  
+        </div>
+      </div></div>
+    <div class="col"><div class="card" style="width: 18rem;">
+        <img id="img15" src="Special Tiles/antistatictile.jpg"class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Anti static</h5>
+          <p class="card-text">The industrial tiling solution that has looked
+            into a very niche but highly important areas, which are
+            sensitive to static electricity. help prevent static charges from generating current.</p>
+  
+        </div>
+      </div></div>
+    <div class="col"><div class="card" style="width: 18rem;">
+        <img id="img16" src="Special Tiles/coolrooftile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cool roof</h5>
+          <p class="card-text">These tiles, are a range of unique tiles that keeps the
+            harsh rays of the sun off your building. Used on terrace, balcony, and courtyard and beat the
+            heat inside your home and save energy.</p>
+        
+        </div>
+      </div></div>
+  </div>
+</div>
+
+        </section>
+        <br>
+      
+       <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted-footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <!-- <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div> -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section>
+      <div class="container text-center text-md-start mt-5">
+       
+        <div class="row mt-3">
+      
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+                <img class="logo" src="ceralogo.png">
+            </h6>
+            <p class="footerP">
+      Make Your House a Perfect Zone Of Living:
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#floortiles" class="text-reset">Floor Tiles</a>
+            </p>
+            <p>
+              <a href="#walltiles" class="text-reset">Wall Tiles</a>
+            </p>
+            <p>
+              <a href="#specialtiles" class="text-reset">Special Tiles</a>
+            </p>
+          </div>
+      
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+       
+            <h6 class="text-uppercase fw-bold mb-4">
+            Other Styles
+            </h6>
+            <p>
+              <a href="otherstyles.html" class="text-reset">Texture</a>
+            </p>
+            <p>
+              <a href="otherstyles.html" class="text-reset">Plain</a>
+            </p>
+            <p>
+              <a href="otherstyles.html" class="text-reset">Polished</a>
+            </p>
+            <p>
+              <a href="otherstyles.html" class="text-reset">Vinyl</a>
+            </p>
+          </div>
+  
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact Info</h6>
+      <p>PAKISTAN-KARACHI</p>
+            <a href="contact.html">ceratiles@outlook.com</a>
+            <br>
+<a class="num1" href="contact.html">92+123-456-7</a>
+<br>
+<a  class="num2" href="contact.html">92+123-456-7</a>
+          </div>
+  
+        </div>
+    
+      </div>
+    </section>
+
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="copyright" class="text-reset fw-bold" href=https://ceratile.com>CeraTiles.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    </body>
+    <!-- for hover effect on each card -->
+    <script>
+    $(document).ready(function(){
+        // for 1st card
+        $('#img1').hover(function()
+        {
+        $('#img1').attr('src','Card Hover Imgs/card1img.jpg');
+        },
+        function()
+        {
+        $('#img1').attr('src','Wall Tiles/bathroomwall.jpg');
+        })
+        // for2ndcard
+        $('#img2').hover(function()
+        {
+        $('#img2').attr('src','Card Hover Imgs/card2img.jpg');
+        },
+        function()
+        {
+        $('#img2').attr('src','Wall Tiles/kitchenwall.jpg');
+        })
+        // for3rdcard
+        $('#img3').hover(function()
+        {
+        $('#img3').attr('src','Card Hover Imgs/cardimg3.jpg');
+        },
+        function()
+        {
+        $('#img3').attr('src','Wall Tiles/livingroomwall.jpg');
+        })    
+        // for4thcard
+        $('#img4').hover(function()
+        {
+        $('#img4').attr('src','Card Hover Imgs/cardimg4.jpg');
+        },
+        function()
+        {
+        $('#img4').attr('src','Wall Tiles/roomwall.jpg');
+           
+        })  
+        // for5thcard
+        $('#img5').hover(function()
+        {
+        $('#img5').attr('src','Card Hover Imgs/cardimg5.jpg');
+        },
+        function()
+        {
+        $('#img5').attr('src','Wall Tiles/commercialwall.jpg');
+        }) 
+            
+        
+        // for6thcard
+        $('#img6').hover(function()
+        {
+        $('#img6').attr('src','Card Hover Imgs/cardimg6.jpg');
+        },
+        function()
+        {
+        $('#img6').attr('src','Wall Tiles/outdoorwall.jpg');
+        }) 
+           
+        // floor tiles
+        
+        // for 7th card
+        $('#img7').hover(function()
+        {
+        $('#img7').attr('src','Card Hover Imgs/cardimg8.jpg');
+        },
+        function()
+        {
+        $('#img7').attr('src','Floor Tiles/bathroomfloor.jpg');
+        })
+        // for8thcard
+        $('#img8').hover(function()
+        {
+        $('#img8').attr('src','Card Hover Imgs/cardimg7.jpg');
+        },
+        function()
+        {
+        $('#img8').attr('src','Floor Tiles/kitchenfloor.jpg');
+        })
+        // for9thcard
+        $('#img9').hover(function()
+        {
+        $('#img9').attr('src','Card Hover Imgs/cardimg9.jpg');
+        },
+        function()
+        {
+        $('#img9').attr('src','Floor Tiles/livingroomfloor.jpg');
+        })    
+        // for10thcard
+        $('#img10').hover(function()
+        {
+        $('#img10').attr('src','Card Hover Imgs/cardimg12.jpg');
+        },
+        function()
+        {
+        $('#img10').attr('src','Floor Tiles/bedroomfloor.jpg');
+           
+        })  
+        // for11thcard
+        $('#img11').hover(function()
+        {
+        $('#img11').attr('src','Card Hover Imgs/cardimg11.jpg');
+        },
+        function()
+        {
+        $('#img11').attr('src','Floor Tiles/commercialfloor.jpg');
+        }) 
+            
+        
+        // for12thcard
+        $('#img12').hover(function()
+        {
+        $('#img12').attr('src','Card Hover Imgs/cardimg10.jpg');
+        },
+        function()
+        {
+        $('#img12').attr('src','Floor Tiles/outdoorfloor.jpg');
+        }) 
+        
+        // special tiles
+        // for13thcard
+        $('#img13').hover(function()
+        {
+        $('#img13').attr('src','Card Hover Imgs/spcard1.jpg');
+        },
+        function()
+        {
+        $('#img13').attr('src','Special Tiles/germfreetile.jpg');
+           
+        })  
+        // for14thcard
+        $('#img14').hover(function()
+        {
+        $('#img14').attr('src','Card Hover Imgs/spcard2.jpg');
+        },
+        function()
+        {
+        $('#img14').attr('src','Special Tiles/tactile.jpg');
+        }) 
+            
+        
+        // for15thcard
+        $('#img15').hover(function()
+        {
+        $('#img15').attr('src','Card Hover Imgs/spcard3.webp');
+        },
+        function()
+        {
+        $('#img15').attr('src','Special Tiles/antistatictile.jpg');
+        }) 
+        
+        // for16thcard
+        $('#img16').hover(function()
+        {
+        $('#img16').attr('src','Card Hover Imgs/spcard4.jpg');
+        },
+        function()
+        {
+        $('#img16').attr('src','Special Tiles/coolrooftile.jpg');
+        }) 
+            }) 
+        //    end brackets
+    </script>
+</html>

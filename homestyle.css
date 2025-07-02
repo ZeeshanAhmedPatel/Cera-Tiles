@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+img {
+    height: 450px;
+    width: 300px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+
+}
+
+.mch1 {
+    margin-left: 40%;
+    color: black;
+}
+
+/* .card-img-top{
+height: 253px;
+width: 288px;
+
+    } */
+    
+.card-img-top {
+    width: 18rem;
+    height: 300px;
+    border-radius: 0;
+}
+
+.mch2 {
+    margin-left: 40%;
+    color: black;
+}
+
+.mch3{
+    margin-left: 40%;
+    color: black;
+}
+
+.btn1 {
+    border-radius: 5px;
+}
+
+.btn2 {
+    border-radius: 5px;
+}
+
+
+.footer {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgb(243, 223, 187);
+    color: black;
+    border:solid 1px black ;
+    outline-color: black;
+    
+}
+
+.btn:hover{
+
+background-color: black;
+color: wheat;
+border:solid 1px white ;
+transform: scale(1.1);
+}
+
+.footeranchor{
+    color: black;
+    background: transparent;
+}
+
+.text-uppercase {
+    color:brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerP{
+    color: black;
+}
+
+.copyright{
+    color: black;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.num1{
+    color: black;
+}
+
+.num2{
+    color: black;
+}
+.num1:hover{
+    color: black;
+}
+
+.num2:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

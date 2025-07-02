@@ -1,0 +1,11 @@
+p{
+    font-family: sans-serif;
+}
+
+video{
+    margin-left: 10px;
+    height: 350px;
+    width: 430px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
